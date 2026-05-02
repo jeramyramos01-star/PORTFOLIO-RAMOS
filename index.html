@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        *{
+            font-family: 'Segoe UI';
+        }
+        .parent-navbar{
+            background-color: #2c3e50;
+            display: flex;
+            color: white;
+            padding: 10px 15px;
+            justify-content: space-between;
+        }
+        .childen-navbar{
+            border:1px rgb(253, 2, 2);
+        }
+        .nav-link{
+            color: white;
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .parent-header{
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('images/JEM.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .children-header{
+            height: 200px;
+            width: 400px;
+        }
+        .grand-children-header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .button-header{
+            background-color: lightblue;
+            border: 1px solid lightblue;
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
+        .children-section{
+            border: 1px solid rgb(236, 0, 0);
+            border-radius: 20px;
+            padding: 10px 15px;
+           
+        }
+        .parent-section{
+            display: flex;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <nav class="parent-navbar">
+        <div class="childrent-navbar"></div>
+        <div>
+            <a href="index.html"class="nav-link">HOME</a>
+            <a href="skills.html"class="nav-link">SKILLS</a>
+            <a href="about.html"class="nav-link">ABOUT</a>
+            <a href="fb.html" class="nav-link" >Facebook</a>
+               <a href="resume.html" class="nav-link" >CV RESUME</a>
+       
+
+            
+        </div>
+    </nav>
+    <header class="parent-header">
+        <div class="children-header">
+             <h1 style="text-align: center;">WELCOME TO MY PORTFOLIO, HI I'M, JERAMY!</h1>
+           
+            <div class="grand-children-header">
+            
+            </div>
+        </div>
+    </header>
+    <section class="parent-section">
+            <div class="children-section"><h3><a href="educ.html">EDUCATIONAL ATTAINMENT</a></h3><p>let's talk about </p></div>
+            <div class="children-section"><h3><a href="hobbies.html"> MY  HOBBIES</a> </h3><p>let's talk about</p></div>
+            <div class="children-section"><h3><a href="work.html"> MY  WORK EXPERIENCE</a></h3><p>let's talk about</p></div>
+              <div class="children-section"><h3><a href="end.html"> END</a></h3><p>THANKYOU</p></div>
+
+    </section>
+       
+    
+
+    <footer style="background-color: #c4c4c4;">
+        <p style="text-align: center;">PORTFOLIO WEBSITE</p>
+       
+    </a>
+    </footer>
+</body>
+</html>
