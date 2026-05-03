@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <style>
+
+         .fb-icon {
+            color: #1877f2;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        .fb-icon:hover {
+            color: #0d5ddb;
+        }
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f7fa;
+        }
+
+        /* NAVBAR */
+        .parent-navbar {
+            background-color: #858585;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .nav-link:hover {
+            color: #1abc9c;
+        }
+
+        /* HEADER */
+        .parent-header {
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('images/BG.webp') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .children-header {
+            max-width: 600px;
+        }
+
+        .children-header h1 {
+            font-size: 24px;
+            line-height: 1.5;
+        }
+
+        /* SECTION */
+        .parent-section {
+            display: flex;
+            gap: 20px;
+            padding: 40px 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .children-section {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .children-section:hover {
+            transform: translateY(-5px);
+        }
+
+        .children-section h3 a {
+            text-decoration: none;
+            color: #9b9b9b;
+        }
+
+        .children-section p {
+            color: #666;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #777777;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        /* MOBILE */
+        @media (max-width: 768px) {
+            .parent-section {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    </a>
+
+    <nav class="parent-navbar">
+        <div style="color:white; font-weight:bold;">My Portfolio</div>
+        <div>
+            <a href="index.html" class="nav-link">HOME</a>
+            <a href="skills.html" class="nav-link">SKILLS</a>
+            <a href="about.html" class="nav-link">ABOUT</a>
+            
+        </div>
+    </nav>
+
+    <header class="parent-header">
+        <div class="children-header">
+            <h1>
+                My Father name Romy M. Ramos, Mother name Decerie E. Ramos <br>
+                I have a 2 Bigbrother I am the last in siblings also im the greatest handsome.
+            </h1>
+        </div>
+    </header>
+
+    <footer>
+        
+    </a>
+
+        <p>© 2026 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
